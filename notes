@@ -1,0 +1,6 @@
+max # in an array = arrayName.length
+
+var whatPicture = Math.floor(Math.random() * arrayName.length);
+
+$("#LeftRandomImage").attr("src", arrayName[whatPicture]);
+

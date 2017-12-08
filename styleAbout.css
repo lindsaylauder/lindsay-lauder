@@ -1,0 +1,62 @@
+.container {
+    position:absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content-container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.content-container div {
+    flex: 1 0 0;
+    padding: 2vw;
+    max-width: 400px;
+}
+
+.text p {
+    font-family: 'Courier New';
+    font-size: 14px;
+}
+
+.text a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+.links {
+    padding: 0px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.links a{
+    flex: 1 0 0;
+    font-family: 'Courier New';
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.insta a{
+    font-family: 'Courier New';
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+   
+}
